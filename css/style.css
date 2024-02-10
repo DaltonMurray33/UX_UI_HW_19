@@ -1,0 +1,92 @@
+* {background-color: #496a8f; color: white;}
+.inline-block{
+   display: inline-block;
+   vertical-align: top;
+}
+.logo{
+   float: left;
+   width: 20%;
+   padding: 1%;
+}
+nav {
+   width: 73%;
+   padding: 1%;
+}
+header ul {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   font-size: 22px;
+}
+li{
+   text-align: center;
+   list-style: none;
+   float: left;
+   width: 150px;
+   padding: 4%;
+}
+p{
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-size: 32px;
+   padding: 5%;
+}
+
+
+h1{
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-size: 64px;
+   text-align: center;
+}
+.flexContainer{
+   display: flex;
+}
+.left, .right{
+   height: 50vh;
+   width: 100%;
+   text-align: center;
+   height: 500px;
+}
+img{
+   justify-content: center;
+}
+#webDev{
+   margin-top: 40px;
+}
+#webDev p{
+   margin-top: 65px;
+}
+.leftCase{
+   float: inline-start;
+   padding-left: 10%;
+}
+.rightCase{
+   float: inline-end;
+   padding-right: 10%;
+}
+footer li{
+   width: 20%;
+   display: inline-block;
+   vertical-align: middle;
+   padding-left: 80px;
+   color: white;
+   font-size: 22px;
+}
+footer img{
+   width: 70px;
+   vertical-align: middle;
+}
+.socialLogos{
+   float: right;
+   padding-right: 80px;
+   padding-top: 60px;
+}
+.email, .phoneNumber{
+   font-size: 65px;
+}
+@media only screen and (max-width: 600px){
+    .work{
+        margin: 0px 5%;
+    }
+}
