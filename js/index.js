@@ -1,1 +1,10 @@
-console.log("is this working")
+$(document).ready(function(){
+    $("#dhsButton").click(function(){
+    $(".dhsImg").fadeToggle();
+    });
+    });
+$(document).ready(function(){
+    $("#icsaButton").click(function(){
+    $(".icsaImg").fadeToggle();
+    });
+    });

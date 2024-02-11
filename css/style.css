@@ -31,7 +31,11 @@ p{
    font-size: 32px;
    padding: 5%;
 }
-
+button{
+    height: 50px;
+    background-color: black;
+    width: 555px;
+}
 
 h1{
    font-family: 'Open Sans', sans-serif;
@@ -84,6 +88,17 @@ footer img{
 }
 .email, .phoneNumber{
    font-size: 65px;
+}
+#workSelected{
+    color: black;
+    text-decoration: underline;
+}
+#footer{
+  position: absolute;
+  left: 0;
+  bottom: -120%;
+  width: 100%;
+  text-align: center;
 }
 @media only screen and (max-width: 600px){
     .work{
